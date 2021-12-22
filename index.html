@@ -1,0 +1,52 @@
+<!DOCUMENT html>
+<html>
+    <head>
+        <title> Exercises JS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--meta name="viewport" content="width=device-width, initial-scale=1.0" -->
+        <link rel="stylesheet" href="style/exer.css">
+
+    </head>
+    <body>
+        <div id="#main" class="box-w100-h100 flex flexCenter">
+            <div id="box" class="box-w40-h95 shadow roundCorner">
+                <div id="headers" class="box-w100-h35 flex flexCenter flexColumn colorGrey">
+                    <div class="box-w100-h35 flex flexCenter flexColumn">
+                        <h1>Bookshelf</h1>
+                        <p>My favorite books</p>
+                    </div>
+                    <div class="box-w100-h35 flex flexCenter">
+                        <form id="search" action="" method="" class="box-w75-h100 flex flexCenter">
+                            <input type="text" placeholder="Search books" maxlength="255">
+                        </form>
+                    </div>
+                </div>
+                <div id="body" class="box-w100-h50 flex flexCenter flexColumn">
+                    <div id="title" class="box-w100-h20 flex flexCenterAlign">
+                        <h2 class="margin-left-5"> Books to read </h2>
+                    </div>
+                    <ul id="titlesToRead" class="box-w100-h80 scroll scroll-width-thin">
+                        <!--li class="wigetLi box-w100-h25 flex flexColumn flexCenterAlign">
+                            <div class="marginBottom-2 box-w80-h100 flex flexCenterAlign flexJustify beautyBorderLeft borderHover">
+                                <p class=""> This is test book to read </p>
+                                <button class='delete margin-left-10  btn btn-green'> DELETE </button>
+                            </div>
+                        </li--->
+                    </ul>
+                </div>
+
+                <div id="foot" class="box-w100-h15 flex flexCenter flexColumn">
+                    <div class="box-w85-h60 flex flexCenter">
+                        <form action="" method="" class="box-w100-h100 flex flexCenter">
+                            <input id="addBook" class="box-w80-h60 flex flexCenter" type="text" placeholder="Add book" maxlength="255">
+                            <button id="add" class='btn btn-green'> ADD </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="js/exer.js"></script>
+    </body>
+</html>
